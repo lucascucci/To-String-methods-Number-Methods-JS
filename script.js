@@ -92,3 +92,20 @@ console.log(sub.substr(4,6));
 //substring(start,end)
 let siu = "Hello dev!";
 console.log(siu.substring(0,10));
+
+
+
+//Number methods of JS
+
+//to string
+let x = 123;  
+(123).toString();
+console.log(x);
+
+//To exponencial
+
+let z = Number(9.656);
+z.toExponential(2);
+z.toExponential(4);
+z.toExponential(6);
+console.log(z.toExponential(8));
